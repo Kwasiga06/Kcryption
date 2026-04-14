@@ -54,7 +54,7 @@ def decrypt_file(pword):
 # UI Setup
 window = tk.Tk()
 window.title("Kcryption - Secure File Encryptor")
-icon = PhotoImage(file="Kcryption/K.png")  # Adjust the path as needed
+icon = PhotoImage(file="k.png")
 window.iconphoto(True, icon)
 window.geometry("800x600")
 window.configure(bg="#0f0f0f")
